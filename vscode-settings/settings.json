@@ -1,0 +1,7 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "git.confirmSync": false,
+  "omnisharp.useModernNet": false
+}
