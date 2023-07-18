@@ -1,0 +1,5 @@
+[xboxdrv]
+evdev = /dev/input/by-id/usb-SHANWAN_Android_Gamepad-event-if01
+
+[evdev-keymap]
+KEY_HOMEPAGE=GUIDE
