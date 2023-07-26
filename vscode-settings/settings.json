@@ -3,5 +3,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "git.confirmSync": false,
-  "omnisharp.useModernNet": false
+  "omnisharp.useModernNet": false,
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "compact"
 }
