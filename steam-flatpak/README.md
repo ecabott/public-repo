@@ -6,4 +6,4 @@ flatpak --user override --filesystem=xdg-data/icons com.valvesoftware.Steam
 flatpak --user override --filesystem=xdg-data/applications com.valvesoftware.Steam
 flatpak --user override --filesystem=xdg-desktop com.valvesoftware.Steam
 ```
-Put the wrapper script named ```steam``` to your ```$PATH```(like```~/.local/bin```)
+Put the wrapper script named ```steam``` to your ```$PATH```(like```~/.local/bin/``` or ```/usr/local/bin/```)
