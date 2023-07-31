@@ -2,7 +2,7 @@
 
 # removing unused packages
 
-```
+```bash
 sudo dnf remove firefox libreoffice*
 sudo dnf autoremove
 ```
@@ -20,7 +20,7 @@ max_parallel_downloads=10
 fastestmirror=True
 ```
 
-`Save and exit.`
+Save and exit.
 
 # intel undervolt
 
@@ -39,7 +39,7 @@ undervolt 3 'System Agent' 0
 undervolt 4 'Analog I/O' 0
 ```
 
-`Save and exit.`
+Save and exit.
 
 ```
 sudo intel-undervolt apply
