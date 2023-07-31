@@ -1,13 +1,13 @@
 # fedora-config
 
-# removing unused packages
+# remove unused packages
 
-```bash
+```
 sudo dnf remove firefox libreoffice*
 sudo dnf autoremove
 ```
 
-# making dnf faster
+# make dnf faster
 
 ```
 sudo nano /etc/dnf/dnf.conf
@@ -21,6 +21,14 @@ fastestmirror=True
 ```
 
 Save and exit.
+
+# system update
+
+```
+sudo dnf update --refresh
+```
+
+reboot
 
 # intel undervolt
 
@@ -51,8 +59,24 @@ To make changes persistent across reboots:
 sudo systemctl enable intel-undervolt.service
 ```
 
-# system update
+# add zsh with ohmyzsh as default terminal
+
+zsh
 
 ```
-sudo dnf update --refresh
+sudo dnf install zsh
 ```
+
+ohmyzsh
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+change default shell to zsh
+
+```
+chsh -s $(which zsh)
+```
+
+reboot
